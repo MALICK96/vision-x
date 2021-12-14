@@ -20,6 +20,9 @@ $(document).ready(function() {
         $('html, body').animate({scrollTop: $('.js_features_section').offset().top}, 1000)
     });
 
+    
+
+
     // Navigation scroll
     // Select all links with hashes
     $('a[href*="#"]')

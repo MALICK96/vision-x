@@ -4,6 +4,7 @@
   --orange-color: #e67e22;
   --dark-orange: #cf6d17;
   --body-text-color:  #555;
+  --black-color-: #000;
 }
 /* Color base 
     #e67e22 = orange;
@@ -29,6 +30,7 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   line-height: 1.5;
+  user-select: none;
 
 }
 
@@ -37,19 +39,20 @@ body {
 /* HEADER SECTION*/
 /*===============================================*/
 
-.hero-text-box {
+.banner {
     position: relative;
+    background-image:  linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5));
+
 }
-.hero-content {
+.banner h1 {
     position: absolute;
-    top: 200px;
-    left: 200px;
+    bottom: 200px;
+    left: 100px;
     width: 80%;
-    font-size: 2rem;
-    color: red
+    color: var(--white-clr);
 }
-.hero-text-box img {
-    height: 500px;
+.banner img {
+    height: 600px;
     width: 100%;
     opacity: .5;
 }
@@ -92,7 +95,7 @@ body {
 
 .dropdown-content li .nav-link,
 .dropdown-content li .dropdown-nav-link {
-  color: #000 !important;
+  color: var(--black-color-) !important;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -264,7 +267,8 @@ ul {
     float: left;
     height: 100px;
     width: auto;
-    margin-top: 30px;
+    /* margin-top: 15px; */
+    border-radius: 5px;
 }
 
 /* Logo use by jQuery*/
@@ -274,6 +278,7 @@ ul {
     height: 50px;
     width: auto;
     margin: 5px 0%;
+    border-radius: 5px;
 }
 
 /* Mobile Nav */
@@ -308,10 +313,13 @@ ul {
 
 
 /* UL */
+nav {
+  padding: 20px 0;
+}
 .main-nav {
     float: right;
     list-style-type: none;
-    margin-top: 50px;
+    margin-top: 30px;
     overflow: -moz-hidden-unscrollable;
 
 }
@@ -556,7 +564,7 @@ footer .copyright {
         font-size: .75rem;
     }
 
-    .hero-content {
+    .banner h1 {
       left: 100px;
     }
     
@@ -617,7 +625,7 @@ footer .copyright {
     padding-left: 0;
   } */
 
-  .hero-content {
+  .banner h1 {
     font-size: 1.5rem;
   }
   .footer-nav-box {
@@ -783,7 +791,7 @@ footer .copyright {
 
 @media all and (max-width: 540px) {
 
-  .hero-content {
+  .banner h1 {
     width: 60%;
     font-size: 1.2rem;
   }

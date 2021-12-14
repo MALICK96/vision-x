@@ -32,8 +32,8 @@
        <nav class="">
            <div class="row">
                <div class="navbar">
-                    <img src="/assets/image/vision-x.png" alt="Omnifood" class="logo">
-                    <img src="/assets/image/vision-x-white.png" alt="Omnifood" class="logo-black">
+                    <img src="/assets/image/logo.jpg" alt="Omnifood" class="logo">
+                    <img src="/assets/image/logo.jpg" alt="Omnifood" class="logo-black">
 
                     <ul class="main-nav js_main_nav">
                         <li class="nav-title nav-item"><a href="/index.html" class="nav-link">Acceuil</a></li>
@@ -78,9 +78,9 @@
                 </div>
            </div>
        </nav>
-        <div class="hero-text-box">
-            <img src="../../ressources/css/img/hero.jpg" alt="">
-            <h1 class="hero-content">
+        <div class="banner">
+            <img src="/assets/image/hero.jpg" alt="">
+            <h1>
                 Avec VISION-X le monde est au bout de vos doigts. faite 
                 vos achats sur les plus Grand sites de vente occidentaux.
             </h1>
@@ -105,13 +105,14 @@
                 </div>
             </div>
         </section>
-        <section class="wrapper">
+    
+    <section class="wrapper">
         <div class="row">
-            <h2>Laissez nous un message ?</h2>
+            <h2>Laissez nous un message</h2>
         </div>
         <div id="contact" class="map-box">
             <div class="map">
-                <img src="../../../ressources/images/location/clo.png" alt="My Current Location">
+                <img src="/assets/image/clo.png" alt="My Current Location">
             </div>
             
             <div class="form-box" id="form">
@@ -120,7 +121,7 @@
                     
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="name">Name</label>
+                            <label for="name">Nom:</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="text" name="name" id="name" placeholder="your name" required>
@@ -128,7 +129,7 @@
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="email">Email</label>
+                            <label for="email">Email:</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="email" name="email" id="email" placeholder="your email" required>
@@ -136,13 +137,13 @@
                     </div>
                     <div class="row zipcode_row">
                         <div class="col span-1-of-3">
-                            <label for="zip">ZIP Code:</label>
+                            <label for="zip">ZIP Code (optionnel):</label>
                         </div>
                         <div class="col span-1-of-3">
-                            <input type="text" name="zip" required >
+                            <input type="text" name="zip" >
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col span-1-of-3">
                             <label for="geolocation">Access your Location?</label>
                         </div>
@@ -150,64 +151,53 @@
                             <input type="checkbox" name="geolocation">
                         </div>
                         <span class="status"></span>
-                    </div>
+                    </div> -->
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="find-us">How did you find us?</label>
+                            <label for="find-us">Qui vous a parlé de nous?</label>
                         </div>
                         <div class="col span-2-of-3">
                             <select name="referrer" id="referrer">
-                                <option value="friends" selected>Friends</option>
-                                <option value="search">Search Engine</option>
-                                <option value="ads">Advertisemment</option>
-                                <option value="other">Other</option>
+                                <option value="friends" selected>Vos Connaissances</option>
+                                <option value="search">Les moteurs de recherche</option>
+                                <option value="ads">Les Publicités</option>
+                                <option value="other">Autres</option>
                             </select>
     
                         </div>
                     </div>
     
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col span-1-of-3 ">
                             <label for="newsletter">Newsletter?</label>
                         </div>
                         <div class="col span-2-of-3">
                             <input type="checkbox" name="newsletter" id="newsletter" checked> <span
-                                class="newsletter-subscription">Yes Please!</span>
+                                class="newsletter-subscription">Oui s'il vous plaît!</span>
                         </div>
-                    </div>
+                    </div> -->
     
                     <div class="row">
                         <div class="col span-1-of-3">
-                            <label for="message">Drop us a line</label>
+                            <label for="message">Votre Message:</label>
                         </div>
                         <div class="col span-2-of-3">
                             <textarea name="message" id="message" placeholder="your message..." required></textarea>
                         </div>
                     </div>
     
-                    <div class="row btn-wrapper>
+                    <div class="row btn-wrapper">
                         <div class="col span-1-of-3">
                             <label>&nbsp;</label>
                         </div>
                         <div class="col span-2-of-3 btn-submit">
-                            <input type="submit" value="Send it!">
+                            <input type="submit" value="Envoyer">
                         </div>
                     </div>
                 </form>
             </div>
         </div>
     </section>
-
-    
-   
-
-
-
-   
-
-   
-
-
 
     <footer>
         <div class="row">
@@ -241,7 +231,7 @@
     <script src="/vendors/js/htmlshiv.3.7.3.js"></script>
     <script src="/vendors/js/selectivizr-1.0.3b.js"></script>
     <script src="/vendors/js/jquery.waypoints.min.js"></script>
-    <script src="/ressources/js/srcipt.js"></script>
-    <script src="/ressources/js/validate.js"></script>
+    <script src="/assets/js/srcipt.js"></script>
+    <script src="/assets/js/validate.js"></script>
 </body>
 </html>

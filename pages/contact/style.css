@@ -157,6 +157,9 @@ ul {
 }
 
 /*------------LINKS-------------- */
+nav {
+  padding: 20px 0;
+}
 .nav-item a:link,
 .nav-item a:visited {
   text-decoration: none;
@@ -211,9 +214,9 @@ input[type="submit"]:active {
 
 .banner {
   position: relative;
-  /* height: 100vh; */
   margin: 0;
   padding: 0;
+  background-image:  linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5));
 }
 .banner img {
   opacity: .5;
@@ -223,7 +226,7 @@ input[type="submit"]:active {
 }
 
 .banner h1 {
-  color: rgb(207, 68, 68);
+  color: var(--white-clr);
   position: absolute;
   bottom: 400px;
   left: 100px;
@@ -236,7 +239,8 @@ input[type="submit"]:active {
     float: left;
     height: 100px;
     width: auto;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    border-radius: 5px;
 }
 
 /* Logo use by jQuery*/
@@ -246,6 +250,7 @@ input[type="submit"]:active {
     height: 50px;
     width: auto;
     margin: 5px 0%;
+    border-radius: 5px;
 }
 
 /* Mobile Nav */
@@ -283,7 +288,7 @@ input[type="submit"]:active {
 .main-nav {
     float: right;
     list-style-type: none;
-    margin-top: 50px;
+    margin-top: 30px;
     overflow: -moz-hidden-unscrollable;
 }
 
