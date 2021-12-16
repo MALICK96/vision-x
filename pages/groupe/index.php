@@ -28,16 +28,16 @@
     
 </head>
 <body>
-   <header class="header-groupe">
+   <header class="header-groupe header">
        <nav class="">
            <div class="row">
                <div class="navbar">
-                    <img src="/assets/image/logo.jpg" alt="vision-x logo" class="logo">
-                    <img src="/assets/image/logo.jpg" alt="vision-x logo" class="logo-black">
+                    <img src="/assets/image/vision-x.png" alt="vision-x logo" class="logo">
+                    <img src="/assets/image/vision-x-white.png" alt="vision-x logo" class="logo-black">
 
                     <ul class="main-nav js_main_nav">
-                        <li class="nav-title nav-item"><a href="/index.html" class="nav-link">Acceuil</a></li>
-                        <li class="dropdown"><a href="" class="nav-link">Le Groupe <i class="ion-android-arrow-dropdown"></i></a>
+                        <li class="nav-title nav-item"><a href="/" class="nav-link">Acceuil</a></li>
+                        <li class="dropdown"><a href="/pages/groupe/" class="nav-link">Le Groupe <i class="ion-android-arrow-dropdown"></i></a>
                             <div class="dropdown-list">
                                 <ul id="zero" class="dropdown-content">
                                     <li class="dropdown-item dropdown-li"><a href="#a-propos" class="dropdown-item dropdown-nav-link">A propos de nous</a></li>
@@ -48,7 +48,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li  class="dropdown"><a href="/pages/activites/index.html" class="nav-link">Activites <i class="ion-android-arrow-dropdown"></i></a>
+                        <li  class="dropdown"><a href="/pages/activites/" class="nav-link">Activités <i class="ion-android-arrow-dropdown"></i></a>
                             <div class="dropdown-list"> 
                                 <ul class="dropdown-content">
                                     <li class="dropdown-item"><a href="/pages/activites/servirces/#presta-srvc" class="dropdown-nav-link">Prestation de services</a></li>
@@ -60,7 +60,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="dropdown"><a href="/pages/carrieres/index.html" class="nav-link">carriere <i class="ion-android-arrow-dropdown"></i></a>
+                        <li class="dropdown"><a href="/pages/carrieres/" class="nav-link">carrières <i class="ion-android-arrow-dropdown"></i></a>
                             <div class="dropdown-list">
                                 <ul class="dropdown-content">
                                     <li class="dropdown-item"><a href="/pages/carrieres/#travailler-pour-nous" class="dropdown-nav-link">Travailler Pour Nous</a></li>
@@ -68,7 +68,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-title nav-item"><a href="/pages/contact/index.html" class="nav-link">Contact</a>
+                        <li class="nav-title nav-item"><a href="/pages/contact/" class="nav-link">Contacts</a>
                         </li>
                     </ul>
                     <a href="#" class="mobile-nav-icon js_nav_icon">
@@ -77,19 +77,20 @@
                 </div>
            </div>
        </nav>
+       <div class="banner">
+        <!-- <img src="/assets/image/img2-0.png" alt=""> -->
+            <h1>Avec VISION-X-GROUP le monde est au bout de vos doigts. Notre raison d'être est la satisfaction de vos besoins.</h1>
+        </div>
    </header>
 
-   <div class="banner">
-        <img src="/assets/image/hero.jpg" alt="">
-        <h1>Avec VISION-X le monde est au bout de vos doigts. Notre rasion d'être est la satisfaction de vos besoins.</h1>
-    </div>
+   
    <!-- Section Feature -->
    <section class="about-section  about-us-section">
        <h2 id="a-propos">A Propos de nous</h2>
        <div class="side-bar-row">
             <div class="message js_about_section">
                 
-                VISION-X est une entreprise fondée du droit Guinéen et régie par l'Acte Uniforme de L'HOHADA. Nous sommes votre paténaire idéal pour vous offrir les services dans nos divers domaine, grâce à nos expériences acquises dans le monde occidental.
+                VISION-X-GROUP  est une entreprise fondée du droit Guinéen et régie par l'Acte Uniforme de L'HOHADA. Nous sommes votre paténaire idéal pour vous offrir les services dans nos divers domaine, grâce à nos expériences acquises dans le monde occidental.
                 Nos domaines de specialisations sont:
 
                     <ul class="description-list">
@@ -126,19 +127,21 @@
                <div class="first-box">
                    <div class="img-box">
                        <img src="/assets/image/pdg-rmb.png" alt="" class="pdg">
-                       <p class="fonda-name">M. Mohammed Maxim Camara &dash; pdg</p>
+                       <p class="fonda-name">M. Mohammed Maxim Camara &dash; PDG</p>
+                       <!-- <p class="fonda-name">Email: maximcamarafils@gmail.com</p> -->
                    </div>
                    <div class="img-box-content">
-                       Titulaire d'une Maitrise en Économie, j'ai plus de 20 ans d'expériences professionnel, avec plus de 10 années dans de postes de management pour les plus grandes entreprise en Guinée et dans la sous-région. hommes et le développement d'affaire au Canada. Je dispose d'un réseaux de partenaires bien étoffé que je compte mettre a profit pour obtenir derésultats optinaux.
+                       Titulaire d'une Maitrise en administration publique, concentration en évaluation des programmes publiques et de plusieurs certificats notamment dans le domaine de marketing, de gestion de projects et de la sécurité (évaluation de risques et enquêtes) au Canada et d'une maîtrise en économie gestion en Guinée, j'ai plus de 20 ans d'expériences professionnelle, avec plus de 10 années dans de postes de management pour les plus grandes entreprises au Canada et en Afrique. Homme et ces expertises en développement des d'affaires au Canada, Je dispose d'un <strong> réseaux de partenaires</strong> bien étoffé à travers le monde que je compte mettre à profit pour obtenir des résultats optimaux.
                    </div>
                </div>
                <div class="first-box order-reverse">
                    <div class="img-box">
                        <img src="/assets/image/vcp-rmb.png" alt="" class="vcp">
-                       <p class="fonda-name">Dr. Yaya seidou Camara &dash; vice président</p>
+                       <p class="fonda-name">Dr. Yaya seidou Camara &dash; Vice Président</p>
+                       <!-- <p class="fonda-name">Email: yscamara@gmail.com</p> -->
                    </div>
                    <div class="img-box-content">
-                       Je suis Titulaire d'un doctorat en economie et de plusieurs Masters en Economie, en Finance et en Statistiques tous obtenus dans ses université françaises. Sur le plan professionnel, j'ai plusieurs expériences dans des organisations publique internationales privées. J'ai travaillé pour des organisations telles que le Secrétariat Général du Group ACP à bruxelles, le Ministère des Finance au Canada, la Caisse de Dépôt et Placements du Quebec. J'occupe actuellement un poste d'expert senior au niveau du gouvernement fédéral du Canada à Ottawa.
+                       Je suis Titulaire d'un doctorat en économie et de plusieurs Masters en Économie, en Finance et en Statistiques tous obtenus dans des universités françaises. Sur le plan professionnel, j'ai plusieurs expériences dans des organisations publique internationales, publique nationales et privées. J'ai travaillé pour des organisations telles que le Secrétariat Général du Group ACP à Bruxelles, le Ministère des Finance au Canada, la Caisse de Dépôt et Placements du Quebec. J'occupe actuellement un poste <strong class="current-title">d'expert senior</strong> au niveau du gouvernement fédéral du Canada à Ottawa.
                    </div>
                </div>
            </div>
@@ -241,7 +244,7 @@
                             <label for="name">Nom:</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="text" name="name" id="name" placeholder="your name" required>
+                            <input type="text" name="name" id="name" placeholder="votre nom" required>
                         </div>
                     </div>
                     <div class="row">
@@ -249,7 +252,7 @@
                             <label for="email">Email:</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="email" name="email" id="email" placeholder="your email" required>
+                            <input type="email" name="email" id="email" placeholder="votre email" required>
                         </div>
                     </div>
                     <div class="row zipcode_row">
@@ -299,7 +302,7 @@
                             <label for="message">Votre Message:</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <textarea name="message" id="message" placeholder="your message..." required></textarea>
+                            <textarea name="message" id="message" placeholder="votre message..." required></textarea>
                         </div>
                     </div>
     
@@ -318,28 +321,36 @@
 
     
     <footer>
-        <div class="row footer">
-            <div class="footer-nav-box col span-1-of-2">
+        <div class="row first-row">
+            <div class="col span-1-of-2">
                 <ul class="footer-nav">
-                    <li><a href="#">About us</a></li>
+                    <li><a href="#">A propos de nous</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Press</a></li>
-                    <li><a href="#">Carriere</a></li>
-                    <li><a href="#">Travailler Pour Nous</a></li>
+                    <li><a href="#">Carrière</a></li>
                 </ul>
             </div>
-            <div class="footer-social-links col span-1-of-2">
+            <div class="col span-1-of-2">
                 <ul class="social-links">
                     <li><a href="#"><i class="ion-social-facebook"></i></a></li>
                     <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                     <li><a href="#"><i class="ion-social-whatsapp"></i></a></li>
                     <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                    <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                    <li><a href="#"><i class="ion-social-google"></i></a></li>
                 </ul>
             </div>
         </div>
-        <div class="row copyright-box">
-            <p class="copyright">&copy; 2021 by VISION-X. All right reserved.</p>
+
+        <div class="row second-row">
+            <p class="copyright">&copy; Copyright 2021 by VISION-X-GROUP. All right reserved.</p>
+            <div class="num-box">
+                <i class="ion-android-call"></i>+224666538353
+            </div>
+            <div class="flag-box">
+                <span class="fr">FR <img src="/assets/image/fr.png" alt="Drapeau Français"></span>
+                <span class="en">EN <img src="/assets/image/en.png" alt="Drapeau Français"></span>
+            </div>
+
         </div>
     </footer>
 

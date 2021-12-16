@@ -33,42 +33,42 @@
        <nav class="">
            <div class="row">
                <div class="navbar">
-                    <img src="/assets/image/logo.jpg" alt="Vision-X Logo" class="logo">
-                    <img src="/assets/image/logo.jpg" alt="Vision-X Logo" class="logo-black">
+                    <img src="/assets/image/vision-x.png" alt="Vision-X Logo" class="logo">
+                    <img src="/assets/image/vision-x-white.png" alt="Vision-X Logo" class="logo-black">
                     <ul class="main-nav js_main_nav">
                         <li class="nav-title nav-item"><a href="/" class="nav-link">Acceuil</a></li>
-                        <li class="dropdown"><a href="/pages/groupe/index.html" class="nav-link">Le Groupe <i class="ion-android-arrow-dropdown"></i></a>
+                        <li class="dropdown"><a href="/pages/groupe/" class="nav-link">Le Groupe <i class="ion-android-arrow-dropdown"></i></a>
                             <div class="dropdown-list">
                                 <ul id="zero" class="dropdown-content">
-                                    <li class="dropdown-item dropdown-li"><a href="/pages/groupe/index.html#a-propos" class="dropdown-item dropdown-nav-link">A propos de nous</a></li>
-                                    <li class="dropdown-item dropdown-li"><a href="/pages/groupe/index.html#fondateurs" class="dropdown-item dropdown-nav-link">Les Fondateurs</a></li>
-                                    <li class="dropdown-item dropdown-nav-link "><a href="/pages/groupe/index.html#vision" class="nav-link">Vision</a></li>
-                                    <li class="dropdown-item dropdown-nav-link"><a href="/pages/groupe/index.html#mission" class="nav-link">Mission</a></li>
-                                    <li class="dropdown-item dropdown-nav-link"><a href="/pages/groupe/index.html#valeurs" class="nav-link">Valeurs</a></li>
+                                    <li class="dropdown-item dropdown-li"><a href="/pages/groupe/#a-propos" class="dropdown-item dropdown-nav-link">A propos de nous</a></li>
+                                    <li class="dropdown-item dropdown-li"><a href="/pages/groupe/#fondateurs" class="dropdown-item dropdown-nav-link">Les Fondateurs</a></li>
+                                    <li class="dropdown-item dropdown-nav-link "><a href="/pages/groupe/#vision" class="nav-link dropdown-nav-link">Vision</a></li>
+                                    <li class="dropdown-item dropdown-nav-link"><a href="/pages/groupe/index.html#mission" class="nav-link dropdown-nav-link">Mission</a></li>
+                                    <li class="dropdown-item dropdown-nav-link"><a href="/pages/groupe/index.html#valeurs" class="nav-link dropdown-nav-link">Valeurs</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li  class="dropdown"><a href="#" class="nav-link">Activites<i class="ion-android-arrow-dropdown"></i></a>
+                        <li  class="dropdown"><a href="/pages/activites/" class="nav-link">Activites<i class="ion-android-arrow-dropdown"></i></a>
                             <div class="dropdown-list"> 
                                 <ul class="dropdown-content">
-                                    <li class="dropdown-item"><a href="servirces/index.html#presta-srvc" class="dropdown-nav-link">Prestation de services</a></li>
-                                    <li class="dropdown-item"><a href="servirces/index.html#hotel-et-trsm" class="dropdown-nav-link">Hotelerie &amp; Tourisme</a></li>
-                                    <li class="dropdown-item"><a href="servirces/index.html#trans-et-dist" class="nav-link">Transport &amp; Distribution</a></li>
-                                    <li class="dropdown-item"><a href="servirces/index.html#indus-com-et-ngc" class="nav-link">Industrie, Commerce &amp; Négoce</a></li>
-                                    <li class="dropdown-item"><a href="servirces/index.html#constructeur-et-gstimb" class="nav-link">Construction &amp; Gestion-Immobilière</a></li>
-                                    <li class="dropdown-item"><a href="servirces/index.html#mrktg-spcl-et-evntml" class="nav-link">Marketing, Spectacles &amp; Evènementiel</a></li>
+                                    <li class="dropdown-item"><a href="servirces/#presta-srvc" class="dropdown-nav-link">Prestation de services</a></li>
+                                    <li class="dropdown-item"><a href="servirces/#hotel-et-trsm" class="dropdown-nav-link">Hotelerie &amp; Tourisme</a></li>
+                                    <li class="dropdown-item"><a href="servirces/#trans-et-dist" class="nav-link dropdown-nav-link">Transport &amp; Distribution</a></li>
+                                    <li class="dropdown-item"><a href="servirces/#indus-com-et-ngc" class="nav-link dropdown-nav-link">Industrie, Commerce &amp; Négoce</a></li>
+                                    <li class="dropdown-item"><a href="servirces/#constructeur-et-gstimb" class="nav-link dropdown-nav-link">Construction &amp; Gestion-Immobilière</a></li>
+                                    <li class="dropdown-item"><a href="servirces/#mrktg-spcl-et-evntml" class="nav-link dropdown-nav-link">Marketing, Spectacles &amp; Evènementiel</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="dropdown"><a href="/pages/carrieres/index.html" class="nav-link">carriere <i class="ion-android-arrow-dropdown"></i></a>
+                        <li class="dropdown"><a href="/pages/carrieres/" class="nav-link">carrières <i class="ion-android-arrow-dropdown"></i></a>
                             <div class="dropdown-list">
                                 <ul class="dropdown-content">
-                                    <li class="dropdown-item"><a href="/pages/carrieres/index.html#travailler-pour-nous" class="dropdown-nav-link">Travailler Pour Nous</a></li>
-                                    <li class="dropdown-item"><a href="/pages/carrieres/index.html#offre-demploi" class="nav-link">Offres D'emploi</a></li>
+                                    <li class="dropdown-item"><a href="/pages/carrieres/#travailler-pour-nous" class="dropdown-nav-link">Travailler Pour Nous</a></li>
+                                    <li class="dropdown-item"><a href="/pages/carrieres/#offre-demploi" class="nav-link dropdown-nav-link">Offres D'emploi</a></li>
                                 </ul>
                             </div>
                         </li>
-                        <li class="nav-title nav-item"><a href="/pages/contact/index.html" class="nav-link">Contact</a>
+                        <li class="nav-title nav-item"><a href="/pages/contact/" class="nav-link">Contacts</a>
                             
                         </li>
                     </ul>
@@ -82,9 +82,9 @@
            
        </nav>
         <div class="banner">
-            <img src="/assets/image/hero.jpg" alt="">
+            <!-- <img src="/assets/image/hero.jpg" alt=""> -->
             <h1>
-                Avec VISION-X le monde est au bout de vos doigts. Notre rasion d'être est la satisfaction de vos besoins.
+                Avec VISION-X-GROUP le monde est au bout de vos doigts. Notre rasion d'être est la satisfaction de vos besoins.
             </h1>
         </div>
    </header>
@@ -99,7 +99,7 @@
         <div class="row row-blog-post js_wp_3">
             <div  class="col span-1-of-4 col-box-1 box">
                 <a href="servirces/#presta-srvc">
-                    <img src="/assets/image/work3.jpg" alt="">
+                    <img src="/assets/image/img2-0.png" alt="">
                 </a>
                 <div class="services-desc col-text text">
                     <h3>Prestation de services</h3>
@@ -109,7 +109,7 @@
             </div>
             <div class="col span-1-of-4 box col-box-2">
                 <a href="servirces/#hotel-et-trsm">
-                    <img src="/assets/image/work2.jpg" alt="">
+                    <img src="/assets/image/img1.jpg" alt="">
                 </a>
                 <div class="services-desc text col-text">
                     <h3>Hotellerie &amp; Tourisme</h2>
@@ -119,7 +119,7 @@
             </div>
             <div class="col span-1-of-4 box col-box-3">
                 <a href="servirces/#trans-et-dist">
-                    <img src="/assets/image/work3.jpg" alt="">
+                    <img src="/assets/image/img3.jpg" alt="">
                 </a>
                 <div class="services-desc text col-text">
                     <h3>Transport &amp; Distribution</h3>
@@ -128,7 +128,7 @@
             </div>
             <div class="col span-1-of-4 box col-box-4">
                 <a href="servirces/#indus-com-et-ngc">
-                    <img src="/assets/image/work3.jpg" alt="">
+                    <img src="/assets/image/img3.jpg" alt="">
                 </a>
                 <div class="services-desc text col-text">
                     <h3>Industrie, Commerce &amp; Négoce</h3>
@@ -138,7 +138,7 @@
             </div>
             <div class="col span-1-of-4 box col-box-5">
                 <a href="servirces/#constructeur-et-gstimb">
-                    <img src="../../assets/image/work3.jpg" alt="">
+                    <img src="../../assets/image/img2-0.png" alt="">
                 </a>
                 <div class="services-desc text col-text">
                     <h3>Construction &amp; Gestion-Immobilière</h3>
@@ -148,7 +148,7 @@
             </div>
             <div class="col span-1-of-4 box col-box-6">
                 <a href="servirces/#mrktg-spcl-et-evntml">
-                    <img src="/assets/image/work3.jpg" alt="">
+                    <img src="/assets/image/img1.jpg" alt="">
                 </a>
                 <div class="services-desc col-text">
                     <h3>Marketing, Spectacles &amp; Evènementiel</h3>
@@ -161,7 +161,7 @@
 
 
     <footer>
-        <div class="row">
+        <div class="row first-row">
             <div class="col span-1-of-2">
                 <ul class="footer-nav">
                     <li><a href="#">About us</a></li>
@@ -181,8 +181,16 @@
                 </ul>
             </div>
         </div>
-        <div class="row copyright-box">
-            <p class="copyright">&copy; 2021 by VISION-X. All right reserved.</p>
+        <div class="row second-row">
+            <p class="copyright">&copy; Copyright 2021 by VISION-X. All right reserved.</p>
+            <div class="num-box">
+                <i class="ion-android-call"></i>+224666538353
+            </div>
+            <div class="flag-box">
+                <span class="fr">FR <img src="/assets/image/fr.png" alt="Drapeau Français"></span>
+                <span class="en">EN <img src="/assets/image/en.png" alt="Drapeau Français"></span>
+            </div>
+
         </div>
     </footer>
 
